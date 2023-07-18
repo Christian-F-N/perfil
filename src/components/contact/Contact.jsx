@@ -13,8 +13,8 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_5shtrrc', 'template_tce76c7', form.current, 'BAwjkEDlBIXeKGt2M')
-
+    emailjs.sendForm('service_ky0qnkl', 'template_rxa94r5', form.current, '9ZLSUc-jMqsXGokVw')
+    alert("Mensaje enviado")
     e.target.reset()
   };
 
